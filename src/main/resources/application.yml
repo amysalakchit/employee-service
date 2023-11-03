@@ -18,14 +18,14 @@ spring:
                 dialect: org.hibernate.dialect.MySQLDialect
                 format_sql: true
                 default_schema: railway
-    config: 
-        import: "optional:configserver:http://localhost:9002"
-    cloud:
-        config:
-            name: employee
-            discovery: 
-                enabled: true
-                service-id: config-server
+    # config: 
+    #     import: "optional:configserver:http://localhost:9002"
+    # cloud:
+    #     config:
+    #         name: employee
+    #         discovery: 
+    #             enabled: true
+    #             service-id: config-server
 
 
 # eureka:
