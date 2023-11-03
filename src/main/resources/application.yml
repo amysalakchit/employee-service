@@ -5,7 +5,7 @@ spring:
     application: 
         name: employee-service
     datasource:
-        url: jdbc:mysql://monorail.proxy.rlwy.net:3306/railway?useSSL=false&serverTimezone=UTC&uaseLegacyDatetimeCode=false
+        url: jdbc:mysql://monorail.proxy.rlwy.net:20687/railway?useSSL=false&serverTimezone=UTC&uaseLegacyDatetimeCode=false
         username:  root
         password: 1G2gd3EdEC2G4g4a4BA6h6ddge3dbBB2
         driver-class-name: com.mysql.cj.jdbc.Driver
